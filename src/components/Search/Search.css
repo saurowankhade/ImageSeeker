@@ -1,0 +1,130 @@
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.body-container{
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container{
+    /* background-color: rgba(255, 170, 0, 0.631); */
+    background-color: white;
+    border: 1px solid;
+    width: 700px;
+    border-radius: 50px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    position: -webkit-sticky;
+    
+    box-shadow:
+  10px 10px 10px rgba(0, 0, 0, 0.02),
+  10px 10px 10px rgba(0, 0, 0, 0.028),
+  10.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  10.3px 10.3px 17.9px rgba(0, 0, 0, 0),
+  10.8px 10.8px 10.4px rgba(0, 0, 0, 0.025),
+  10px 10px 10px rgba(0, 0, 0, 0.06)
+;
+    
+}
+.search-container:hover , .search-container:focus{
+    /* box-shadow: 10px 10px 10px 10px rgb(245, 222, 179); */
+}
+.search-container input{
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    width: 90%;
+    outline: none;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.search-container button{
+    background-color: transparent;
+    color: rgb(255, 170, 0);
+    border: none;
+     cursor: pointer;
+     font-size: 30px;
+     margin-right: 10px;
+     transition: all 0.8s linear;
+}
+
+.search-container button:hover{
+    color: rgb(255, 170, 0);
+}
+
+
+@media (max-width : 900px) {
+
+    .search-container{
+        width: 580px;
+    }
+    
+}
+
+@media (max-width : 780px) {
+
+    .search-container{
+        width: 530px;
+    }
+    
+}
+
+@media (max-width : 750px) {
+
+    .search-container{
+        width: 500px;
+    }
+    
+}
+
+@media (max-width : 650px) {
+    .search-container{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width : 500px) {
+    .search-container{
+        width: 350px;
+    }
+    
+}
+
+
+@media (max-width : 450px) {
+    .search-container{
+        width: 330px;
+    }
+    
+}
+
+
+@media (max-width : 400px) {
+    .search-container{
+        width: 300px;
+    }
+    
+}
+
+
+@media (max-width : 350px) {
+    .search-container{
+        width: 270px;
+    }
+    
+}

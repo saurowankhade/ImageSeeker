@@ -1,0 +1,26 @@
+.conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+
+}
+.sub-container{
+    width: 600px;
+    height: 400px;
+    margin: 10px; 
+    
+    background-image: linear-gradient(#80808039,#80808015);
+    cursor: pointer;
+    border-radius: 20px;
+    animation:  ani 3s infinite;
+}
+
+@keyframes  ani{
+    100%{  
+        background-image: radial-gradient(#80808039,#80808015);
+    }
+}
+
